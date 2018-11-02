@@ -5,7 +5,7 @@ var nombre = [];
 var canasta2 = [];
 var canasta3 = [];
 var tiempo = [];
-var resultadoF = [];
+var resultado = [];
 var sumaa1 = 0;
 var sumaa3 = 0;
 var sumatiempo = 0;
@@ -33,7 +33,7 @@ function baloncesto(nom, c2, c3, temp){
 
    for (let i = 0; i < c2.length; i++) {
        sumaresultado = c2[i] + c3[i];
-       resultadoF.push(sumaresultado)
+       resultado.push(sumaresultado)
        if (sumaresultado > max) {
            max = sumaresultado;
            pos = resultadoF.indexOf(max);
