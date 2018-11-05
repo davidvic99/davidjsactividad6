@@ -36,7 +36,7 @@ function baloncesto(nom, c2, c3, temp){
        resultado.push(sumaresultado)
        if (sumaresultado > max) {
            max = sumaresultado;
-           pos = resultadoF.indexOf(max);
+           pos = resultado.indexOf(max);
        }
    } 
    
